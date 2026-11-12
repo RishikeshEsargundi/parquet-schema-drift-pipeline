@@ -166,7 +166,7 @@ def run_benchmark(rows_per_batch):
             quarantine_module.QUARANTINE_DIR = original_quarantine_dir
 
             # Restore the original working directory.
-            os.chdir(previous_directory)          
+            os.chdir(previous_directory)
 
 def main():
     benchmark_sizes = [1_000, 10_000, 100_000]
