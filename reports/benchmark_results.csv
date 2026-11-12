@@ -1,0 +1,4 @@
+rows_per_batch,input_files,input_rows,valid_rows,rejected_rows,schema_quarantined_rows,published_rows,duration_seconds,rows_per_second,input_size_mb,output_size_mb,status
+1000,7,7000,4998,2,2000,4998,0.622,11246.11,0.19,0.18,SUCCESS_WITH_REJECTS
+10000,7,70000,49998,2,20000,49998,0.741,94467.84,1.79,2.08,SUCCESS_WITH_REJECTS
+100000,7,700000,499998,2,200000,499998,2.9,241411.46,16.8,24.62,SUCCESS_WITH_REJECTS

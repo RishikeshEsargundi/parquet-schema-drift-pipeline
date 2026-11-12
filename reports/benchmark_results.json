@@ -1,0 +1,44 @@
+[
+  {
+    "rows_per_batch": 1000,
+    "input_files": 7,
+    "input_rows": 7000,
+    "valid_rows": 4998,
+    "rejected_rows": 2,
+    "schema_quarantined_rows": 2000,
+    "published_rows": 4998,
+    "duration_seconds": 0.622,
+    "rows_per_second": 11246.11,
+    "input_size_mb": 0.19,
+    "output_size_mb": 0.18,
+    "status": "SUCCESS_WITH_REJECTS"
+  },
+  {
+    "rows_per_batch": 10000,
+    "input_files": 7,
+    "input_rows": 70000,
+    "valid_rows": 49998,
+    "rejected_rows": 2,
+    "schema_quarantined_rows": 20000,
+    "published_rows": 49998,
+    "duration_seconds": 0.741,
+    "rows_per_second": 94467.84,
+    "input_size_mb": 1.79,
+    "output_size_mb": 2.08,
+    "status": "SUCCESS_WITH_REJECTS"
+  },
+  {
+    "rows_per_batch": 100000,
+    "input_files": 7,
+    "input_rows": 700000,
+    "valid_rows": 499998,
+    "rejected_rows": 2,
+    "schema_quarantined_rows": 200000,
+    "published_rows": 499998,
+    "duration_seconds": 2.9,
+    "rows_per_second": 241411.46,
+    "input_size_mb": 16.8,
+    "output_size_mb": 24.62,
+    "status": "SUCCESS_WITH_REJECTS"
+  }
+]

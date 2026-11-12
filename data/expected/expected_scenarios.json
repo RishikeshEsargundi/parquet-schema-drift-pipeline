@@ -1,0 +1,9 @@
+{
+    "batch_01.parquet": "original_schema",
+    "batch_02.parquet": "approved_city_column",
+    "batch_03.parquet": "approved_salary_column",
+    "batch_04.parquet": "incompatible_age_type",
+    "batch_05.parquet": "missing_required_column",
+    "batch_06.parquet": "duplicate_customer_ids",
+    "batch_07.parquet": "invalid_business_records"
+}

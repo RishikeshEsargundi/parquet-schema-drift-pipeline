@@ -1,0 +1,53 @@
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+credentials.json
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated input and intermediate data
+data/input/*.parquet
+data/output/*
+data/quarantine/*
+data/target/*
+data/expected/*.json
+!data/expected/expected_scenarios.json
+
+# Preserve explicitly selected supporting reports
+reports/*
+!reports/benchmark_results.csv
+!reports/benchmark_results.json
+!reports/performance_analysis.md
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
